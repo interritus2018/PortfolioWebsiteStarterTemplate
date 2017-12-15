@@ -13,13 +13,20 @@
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width:1500px;
     width: 100%;
 }
 
 .row {
     width: 100%;
     margin-bottom: 20px;
+    display: flex;
+}
+
+.row2 {
+    width: 100%;
+    margin-top: -57px;
+    margin-bottom: -30px;
     display: flex;
 }
 
@@ -40,6 +47,15 @@
     width: 100%;
 }
 
+.col-3a {
+    width: 30%;
+}
+
 .col-4 {
-    width: 33.33%;
+    width: 20%;
+}
+
+.col-4a {
+    width: 25%;
+    margin-top: -100px;
 }
