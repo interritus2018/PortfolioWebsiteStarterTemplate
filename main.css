@@ -27,7 +27,19 @@
     width: 50%;
 }
 
+.col-1b {
+    width: 50%;
+    border-style:double;
+}
+
 .col-2 {
     width: 100%;
 }
 
+.col-3 {
+    width: 100%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
