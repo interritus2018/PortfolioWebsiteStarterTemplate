@@ -13,7 +13,7 @@
 
 .grid {
     margin: 0 auto;
-    max-width:1500px;
+    max-width:100%;
     width: 100%;
 }
 
@@ -21,6 +21,14 @@
     width: 100%;
     margin-bottom: 20px;
     display: flex;
+}
+
+.bg {
+    width: 100%;
+    height: 600px;
+    background-image: url(Images/DS1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .row2 {
@@ -35,8 +43,9 @@
 }
 
 .col-1b {
-    width: 50%;
-    border-style:double;
+    width: %;
+    border: double;
+    background-color: white;
 }
 
 .col-2 {
